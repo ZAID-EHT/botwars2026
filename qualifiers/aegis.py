@@ -1,13 +1,6 @@
 # ============================================================
 # BotWars 2026 – AEGIS German Whist Bot
 # ============================================================
-# Strategy layers:
-#   1. Legal-move protection
-#   2. Correct public-card tracking
-#   3. Original proven phase-aware heuristics
-#   4. Exact minimax only when the opponent hand is fully known
-#   5. Safe emergency fallback that is always recorded
-# ============================================================
 
 SUITS = ("H", "D", "C", "S")
 RANKS = tuple(range(2, 15))
